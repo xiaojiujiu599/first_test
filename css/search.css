@@ -1,0 +1,100 @@
+/* CSS Document */
+*{margin: 0; padding: 0;}
+body{font-size: 14px;}
+img:hover{
+	transition:none ;
+	transform:none;
+}
+/************** header *************/
+.header{
+	z-index: 1000;
+	width: 100%; 
+	display: block;
+	opacity: 0.92;
+	position: fixed;
+	background: rgb(246, 246, 246);
+	top: 0;
+}
+.header .header_box{width: 100%;}
+.header .header_box .logo{
+	width:25%;
+	height:80px;
+	background: url(../img/3.png) right center no-repeat;
+	float: left;
+	display: block;
+}
+.header .header_box .center{width:52%;height:80px;float:left;text-align: center;}
+
+.header .header_box .center form .search{
+	background: url(../img/icon_search.png) 10px center no-repeat;
+	background-color:#FDFBF0;
+	width:50%;
+	height:35px;
+	border-radius: 20px;
+	padding-left:35px;
+	border: 1px solid #ed7f3d;
+	margin: 24px auto;
+}
+.header .header_box .center form .search_btn{
+	width:12%;
+	height:35px;
+	border-radius: 20px;
+	font-size: 16px;
+	background:#FFF8DC;
+	margin-left: -12%;
+	border: 1px solid #ed7f3d;
+}
+.header .header_box .center form .search_btn:hover{
+	background: #ed7f3d;
+	color: #FFF8DC;
+}
+.header .header_box .right{
+	text-align: center;
+	width: 23%;
+	height: 80px;
+	line-height: 80px;
+	float: left;
+	padding: 0;
+}
+.header .header_box .right button{
+	width: 30px;
+	height: 20px;
+	font-size: 14px;
+	color: #000;
+	padding: 0;
+	border: none;
+	background: none;
+}
+.header .header_box .right button:hover{color:#ed7f3d; }
+.header .header_box .right a.icon_history{width:25px;height:26px;  display: inline-block; background:url(../img/icon_history.png)  center center no-repeat;position: relative;top: 8px;}
+
+
+.modal-dialog{
+	width: 400px;
+}
+.modal-dialog .short{
+	width: 60%;
+	display: inline-block;
+}
+.modal-dialog img{
+	width: 90px;
+	height: 40px;
+	display: inline-block;
+}
+
+
+.wrapper{width: 100%;margin: 0 auto;margin-top: 100px;}
+.wrapper .content{width: 850px;height: 380px;margin: 0 auto;padding: 0 15px; 
+	border: 6px solid rgb(255, 176, 123);border-style: outset;background-color: rgb(255, 245, 230);}
+.wrapper .content table tr:first-child td{font-size: 18px;text-align: left;margin:8px 0;height: 50px}
+.wrapper .content table tr{
+	
+}
+.wrapper .content table td{font-size: 14px;}
+.wrapper .content table .intro{
+	font-size: 15px;color: #ed7f3d;
+}
+
+
+
+

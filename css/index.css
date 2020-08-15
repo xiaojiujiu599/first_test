@@ -1,0 +1,361 @@
+/************** header *************/
+.header{
+	z-index: 1000;
+	width: 100%; 
+	display: block;
+	opacity: 0.92;
+	position: fixed;
+	background: #f8f8f8;
+	top: 0;
+}
+.header .header_box{width: 100%;}
+.header .header_box .logo{
+	width:25%;
+	height:80px;
+	background: url(../img/3.png) right center no-repeat;
+	float: left;
+	display: block;
+}
+.header .header_box .center{width:52%;height:80px;float:left;text-align: center;}
+
+.header .header_box .center form .search{
+	background: url(../img/icon_search.png) 10px center no-repeat;
+	background-color:#FDFBF0;
+	width:50%;
+	height:35px;
+	border-radius: 20px;
+	padding-left:35px;
+	border: 1px solid #ed7f3d;
+	margin: 24px auto;
+}
+.header .header_box .center form .search_btn{
+	width:12%;
+	height:35px;
+	border-radius: 20px;
+	font-size: 16px;
+	background:#FFF8DC;
+	margin-left: -12%;
+	border: 1px solid #ed7f3d;
+}
+.header .header_box .center form .search_btn:hover{
+	background: #ed7f3d;
+	color: #FFF8DC;
+}
+.header .header_box .right{
+	text-align: center;
+	width: 23%;
+	height: 80px;
+	line-height: 80px;
+	float: left;
+	padding: 0;
+}
+.header .header_box .right button{
+	width: 30px;
+	height: 20px;
+	font-size: 14px;
+	color: #000;
+	padding: 0;
+	border: none;
+	background: none;
+}
+.header .header_box .right button:hover{color:#ed7f3d; }
+.header .header_box .right a.icon_history{width:25px;height:26px;  display: inline-block; background:url(../img/icon_history.png)  center center no-repeat;position: relative;top: 8px;}
+
+
+.modal-dialog{
+	width: 400px;
+}
+.modal-dialog .short{
+	width: 60%;
+	display: inline-block;
+}
+.modal-dialog img{
+	width: 90px;
+	height: 40px;
+	display: inline-block;
+}
+
+.banner{
+	margin-top: 80px;
+}
+
+
+/************** nav *************/
+.nav{
+	width: 100%;
+	height: 120px;
+	border: 1px solid #ccc;
+	padding-top: 18px;
+	background:#F7F7F7;
+}
+.nav .left,.right{
+	padding-left: 10%;
+}
+.nav .left{width: 40%; float: left;}
+.nav .left p{font-size: 18px;color: #aaa;}
+.nav .left p a{font-size: 14px;}
+.nav .left ul li{float: left;width: 25%;line-height: 25px;}
+
+.nav .right{width: 60%; float: left;}
+.nav .right p{font-size: 18px;color: #aaa;}
+.nav .right p a{font-size: 14px;}
+.nav .right ul li{float: left;width: 15%;line-height: 25px;}
+
+
+
+/************** 电影历史 *************/
+.history{
+	width: 100%;height: 310px;padding: 0 10%;margin-top: 8px; 
+}
+.history .history_box{
+	width: 100%;height: 310px; 
+}
+.history .history_box .history_title{
+	width: 100%;height: 35px;line-height: 35px; text-align: center;
+}
+.history .history_box .history_title h3{line-height: 35px;margin: 0}
+.history .history_box .part{
+	border-radius: 5px;
+	width: 32%;height: 280px;float: left;padding: 10px 14px; margin-right: 12px; background: url(../img/bg.png); 
+}
+.history .history_box .part:last-child{
+	margin-right: 0;
+}
+.history .history_box .part .tit{
+	font-size: 16px;text-align: center;
+}
+.history .history_box .part p{
+	font-size: 13px;
+	text-indent: 2em;
+	margin-top: 12px;
+	color:#5E5E5E;
+	letter-spacing: 1.6px;
+}
+
+
+
+
+/************** 院线热映 *************/
+.mod_hot{
+	padding: 0 10%;
+	height: 450px;
+}
+.mod_hot .mod_hot_box{
+	width: 100%;
+	
+}
+.mod_hot .mod_left{
+	width: 384px;
+	margin: 0 10px 0 0;
+	float: left;
+	position: relative;
+}
+.mod_hot .mod_left .mod_player{
+	width: 100%;
+}
+.mod_hot .mod_left .mod_playlist a{
+	width: 49.1%;
+	background:#F7F7F7;
+	line-height: 35px;
+	margin-top: 10px;
+	text-indent: 20px;
+	display: inline-block;
+}
+.mod_hot .mod_right{
+	width: 60%;
+	height: 350px;
+	float: left;
+}
+.mod_hot .mod_right .list_item{
+	width: 33%;
+	float: left;
+	
+}
+.mod_hot .mod_right .list_item a img{
+	width: 95%;
+}
+
+
+.detail{
+	padding: 12px 0;
+	color: #aaa;
+}
+.detail a{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/************** 热播推荐 *************/
+.recommend{
+	padding: 0 10%;
+	height: 650px;
+	display: block;
+}
+.recommend .recommend_box{
+	display: block;
+}
+.recommend .recommend_box .main{
+	width: 70%;
+	float: left;
+}
+.recommend .recommend_box .main .main_header h3{
+	display: inline-block;
+}
+.recommend .recommend_box .main .main_header .page{
+	float: right;
+	margin-top: 20px;
+}
+.recommend .recommend_box .main .content{
+	display: block;
+}
+.recommend .recommend_box .main .content .list_item{
+	float: left;
+	width: 25%;
+	overflow: hidden;
+}
+.recommend .recommend_box .main .content .list_item img{
+	border-radius: 5px;
+	width: 90%;
+}
+.recommend .recommend_box .main .content .list_item .detail p{
+	width: 170px;
+	height: 20px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.recommend .recommend_box .side{
+	width: 30%;
+	float: left;
+}
+.recommend .recommend_box .side .phb{
+	width: 100%;
+	padding-bottom: 6px;
+	background-color: #f8f8f8;
+	padding: 12px 0;
+
+}
+.recommend .recommend_box .side ul li:nth-child(-n+3){
+	color:#ffd089;
+	text-shadow: 0.1em 0.1em 3px #e85a3d;
+	font-size: 24px;
+	font-weight: bold;
+}
+.recommend .recommend_box .side ul li:nth-child(n+4){
+	color: #999;
+	font-size: 18px;
+}
+
+
+
+/************** 口播电影榜 *************/
+.koubei{padding: 0 10%;display: block;width: 100%;height: 450px;}
+.koubei .koubei_box{width: 100%;display: block;}
+.koubei .koubei_box {
+	border: none;
+}
+.koubei .koubei_box  .tab{
+	float: left;
+	width: 100%;
+	height: 420px;
+}
+.koubei .koubei_box  .tab .nav{
+	height: 80px;
+	line-height:40px;
+}
+.koubei .koubei_box  .tab ul{
+	border: none;
+	background:rgba(0,0,0,0);
+}
+.koubei .koubei_box  .tab ul li{
+	margin-right: 10px;
+}
+.koubei .koubei_box  .tab ul .active{
+	border-radius: 20px;
+	height: 45px;
+	line-height: 40px;
+	border-bottom: 2px solid #2D69A2;
+}
+.koubei .koubei_box  .tab ul li:nth-child(n+2):hover{
+	border-radius: 20px;
+	height: 45px;
+	line-height: 40px;
+	border-bottom: 2px solid #2D69A2;
+}
+.koubei .koubei_box  .tab ul li a{
+	background:rgba(0,0,0,0);
+	color: #111;
+	font-size: 14px;
+}
+.koubei .koubei_box  .tab .tab-content{display: block;}
+.koubei .koubei_box  .tab .tab-content .list_item{
+	float: left;
+	width: 16%;	
+	text-align: center;
+	background: #f6f6f6;
+	overflow: hidden;
+}
+.koubei .koubei_box  .tab .tab-content .list_item:nth-child(-n+5){
+	margin-right: 0.5%;
+}
+.koubei .koubei_box  .tab .tab-content .list_item img{
+	border-radius: 5px;
+	width: 100%;
+}
+.koubei .koubei_box  .tab .tab-content .list_item .detail p{
+	width: 160px;
+	height: 20px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/************** footer *************/
+.footer{
+	font-size: 12px;
+	width: 100%;
+	height: 260px;
+	background: #333;
+	color: #fff;
+}
+.footer .shang{
+	width: 80%;
+	height: 190px;
+	margin: 0 auto;
+}
+.footer .shang .one,.two,.three,.four{
+	text-align: center;
+	float: left;
+}
+.footer .shang:nth-child(n+1) .title{
+	font-size: 17px;
+	height: 60px;
+	line-height: 60px;
+}
+.footer .shang:nth-child(n+1) ul li{line-height: 30px;}
+.footer .shang .one{width: 24%}
+.footer .shang .one ul li{width: 30%;display: inline-block}
+.footer .shang .one ul li a{color: #fff;}
+
+.footer .shang .two{width: 16%}
+.footer .shang .two ul li a{color: #fff;}
+
+.footer .shang .three{width: 39%}
+.footer .shang .three a{display: inline-block;width: 18%;text-align: center;letter-spacing: normal;}
+.footer .shang .three a img{width: 32%;}
+.footer .shang .three a span{color: #fff;display: block;height: 70px;line-height: 70px;}
+
+
+.footer .shang .four{width: 17%}
+.footer .shang .four ul li a{color: #fff;}
+
+.footer .xia{width: 100%; display:block;text-align: center;height: 60px; line-height: 22px;font-size: 10px;}
+.footer .xia p{margin: 0;}
+
+/************** 箭头 *************/
+.top{display: none;width: 45px;height: 25px;position: fixed;right: 30px;bottom: 120px;}
+.top p,img{width: 100%;text-align: center;}
+

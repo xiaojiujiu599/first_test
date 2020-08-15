@@ -1,0 +1,25 @@
+
+*{margin: 0;padding: 0;}
+body{
+	font-size: 14px;
+}
+a{
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: none;
+	color: #e6422c;
+}
+ul,ol{
+	list-style: none;
+}
+input{
+	border: none;
+	outline: none;
+}
+img:hover{
+	transition: all 0.6s;
+	transform: scale(1.05);
+}
